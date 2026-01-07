@@ -394,6 +394,7 @@ data "aws_iam_policy_document" "route53" {
       "route53:GetChange",
       "route53:ListResourceRecordSets",
       "route53:CreateHostedZone",
+      "route53:DeleteHostedZone",
       "acm:RequestCertificate",
       "acm:AddTagsToCertificate",
       "acm:DescribeCertificate",
